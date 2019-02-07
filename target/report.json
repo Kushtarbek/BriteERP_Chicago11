@@ -1,0 +1,61 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Amazon Title verification",
+        "description": "",
+        "id": "amazon-title;amazon-title-verification",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7052674605,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user goes to amazon application",
+            "match": {
+              "location": "AmazonTitle_steps.user_goes_to_amazon_application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 259003611,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user should see proper title",
+            "match": {
+              "location": "AmazonTitle_steps.user_should_see_proper_title()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@amazon"
+          }
+        ]
+      }
+    ],
+    "name": "Amazon Title",
+    "description": "",
+    "id": "amazon-title",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/Amazon.feature",
+    "tags": [
+      {
+        "name": "@amazon",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
