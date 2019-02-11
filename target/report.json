@@ -12,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 11333030154,
+              "duration": 8670462769,
               "status": "passed"
             },
             "line": 5,
@@ -24,7 +24,7 @@
           },
           {
             "result": {
-              "duration": 8078062359,
+              "duration": 7949139282,
               "status": "passed"
             },
             "line": 6,
@@ -33,6 +33,205 @@
               "location": "Smoke_steps.user_should_see_login_page()"
             },
             "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@brite"
+          }
+        ]
+      },
+      {
+        "line": 8,
+        "name": "Purchases mod",
+        "description": "",
+        "id": "kanban-test2;purchases-mod",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5127031385,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks on purchases",
+            "match": {
+              "location": "Smoke_steps.user_clicks_on_purchases()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5046724513,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user clicks on Request for quotations link",
+            "match": {
+              "location": "Smoke_steps.user_clicks_on_Request_for_quotations_link()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@brite"
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "The rest",
+        "description": "",
+        "id": "kanban-test2;the-rest",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5168795487,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user clicks on Purchases order",
+            "match": {
+              "location": "Smoke_steps.user_clicks_on_Purchases_order()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5024682256,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user verifies the title",
+            "match": {
+              "location": "Smoke_steps.user_verifies_the_title()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10115478974,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user clicks on Vendors",
+            "match": {
+              "location": "Smoke_steps.user_clicks_on_Vendors()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5035471589,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user verifies the title",
+            "match": {
+              "location": "Smoke_steps.user_verifies_the_title()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5105040410,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user clicks on Products",
+            "match": {
+              "location": "Smoke_steps.user_clicks_on_Products()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5030084102,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user verifies the title",
+            "match": {
+              "location": "Smoke_steps.user_verifies_the_title()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5103984820,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user clicks on Incoming Products",
+            "match": {
+              "location": "Smoke_steps.user_clicks_on_Incoming_Products()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5019243487,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user verifies the title",
+            "match": {
+              "location": "Smoke_steps.user_verifies_the_title()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5095664821,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user clicks on Vendors bills",
+            "match": {
+              "location": "Smoke_steps.user_clicks_on_Vendors_bills()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[Incoming Products - Odoo]\u003e but was:\u003c[Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs \u0026 more]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat com.cybertek.stepDef.AmazonTitle_steps.user_should_see_proper_title(AmazonTitle_steps.java:18)\r\n\tat ✽.user should see proper title(src/test/resources/features/Brite.feature:23)\r\n",
+              "duration": 24219897,
+              "status": "failed"
+            },
+            "line": 23,
+            "name": "user should see proper title",
+            "match": {
+              "location": "AmazonTitle_steps.user_should_see_proper_title()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 12308,
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "user clicks on Reporting",
+            "match": {
+              "location": "Smoke_steps.user_clicks_on_Reporting()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6565,
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "user should see reports",
+            "match": {
+              "location": "Smoke_steps.user_should_see_reports()"
+            },
+            "keyword": "And "
           }
         ],
         "tags": [

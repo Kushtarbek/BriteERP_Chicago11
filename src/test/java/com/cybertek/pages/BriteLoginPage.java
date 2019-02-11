@@ -28,4 +28,8 @@ public class BriteLoginPage {
     @FindBy(xpath="//*[@id='wrapwrap']/main/div/form/div[4]/button")
     public WebElement loginbtn;
 
+
+
+
+
 }
