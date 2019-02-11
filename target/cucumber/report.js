@@ -1,40 +1,40 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/resources/features/Amazon.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/resources/features/Brite.feature");
 formatter.feature({
-  "name": "Amazon Title",
+  "name": "Kanban Test2",
   "description": "",
   "keyword": "Feature",
   "tags": [
     {
-      "name": "@amazon"
+      "name": "@brite"
     }
   ]
 });
 formatter.scenario({
-  "name": "Amazon Title verification",
+  "name": "See listings as List",
   "description": "",
   "keyword": "Scenario",
   "tags": [
     {
-      "name": "@amazon"
+      "name": "@brite"
     }
   ]
 });
 formatter.step({
-  "name": "user goes to amazon application",
+  "name": "user goes to Brite application",
   "keyword": "When "
 });
 formatter.match({
-  "location": "AmazonTitle_steps.user_goes_to_amazon_application()"
+  "location": "Smoke_steps.user_goes_to_Brite_application()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "user should see proper title",
+  "name": "user should see login page",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "AmazonTitle_steps.user_should_see_proper_title()"
+  "location": "Smoke_steps.user_should_see_login_page()"
 });
 formatter.result({
   "status": "passed"

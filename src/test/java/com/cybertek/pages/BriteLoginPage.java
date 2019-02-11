@@ -21,4 +21,11 @@ public class BriteLoginPage {
 
     @FindBy(xpath="//*[@id='password']")
     public WebElement passwordBox;
+
+    @FindBy(xpath=".//a[@href='/web?db=BriteErpDemo']" )
+    public WebElement demoButton;
+
+    @FindBy(xpath="//*[@id='wrapwrap']/main/div/form/div[4]/button")
+    public WebElement loginbtn;
+
 }

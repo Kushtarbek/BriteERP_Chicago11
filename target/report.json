@@ -4,52 +4,52 @@
     "elements": [
       {
         "line": 4,
-        "name": "Amazon Title verification",
+        "name": "See listings as List",
         "description": "",
-        "id": "amazon-title;amazon-title-verification",
+        "id": "kanban-test2;see-listings-as-list",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 7052674605,
+              "duration": 11333030154,
               "status": "passed"
             },
             "line": 5,
-            "name": "user goes to amazon application",
+            "name": "user goes to Brite application",
             "match": {
-              "location": "AmazonTitle_steps.user_goes_to_amazon_application()"
+              "location": "Smoke_steps.user_goes_to_Brite_application()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 259003611,
+              "duration": 8078062359,
               "status": "passed"
             },
             "line": 6,
-            "name": "user should see proper title",
+            "name": "user should see login page",
             "match": {
-              "location": "AmazonTitle_steps.user_should_see_proper_title()"
+              "location": "Smoke_steps.user_should_see_login_page()"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@amazon"
+            "name": "@brite"
           }
         ]
       }
     ],
-    "name": "Amazon Title",
+    "name": "Kanban Test2",
     "description": "",
-    "id": "amazon-title",
+    "id": "kanban-test2",
     "keyword": "Feature",
-    "uri": "src/test/resources/features/Amazon.feature",
+    "uri": "src/test/resources/features/Brite.feature",
     "tags": [
       {
-        "name": "@amazon",
+        "name": "@brite",
         "type": "Tag",
         "location": {
           "line": 1,
